@@ -1,0 +1,5 @@
+/* Aquest recurs és públic perquè app.js publica únicament la carpeta public/. */
+body { font-family: system-ui, sans-serif; margin: 2rem auto; max-width: 50rem; }
+nav { display: flex; gap: 1rem; margin-bottom: 2rem; }
+.inline-form { display: inline; }
+.error { color: #a40000; font-weight: 700; }
