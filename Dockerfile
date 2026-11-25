@@ -1,5 +1,6 @@
 # 1. Imagen base: Linux Alpine con Node.js 24
 FROM node:24-alpine
+LABEL org.opencontainers.image.source=https://github.com/Miriam-Nav/Pelis-MVC-Examen
 
 # 2. Carpeta de trabajo dentro de la imagen
 WORKDIR /app
